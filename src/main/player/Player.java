@@ -16,4 +16,8 @@ public abstract class Player {
     public int getHealthPoints() {
         return healthPoints;
     }
+
+    public void addHealthPoints(int numberOfPoints){
+        healthPoints += numberOfPoints;
+    }
 }
